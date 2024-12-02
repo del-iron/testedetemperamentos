@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +7,16 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Cabeçalho Elegante -->
+  <header>
+    <div class="logo">
+      <h1>Teste de Temperamentos</h1>
+      <p>Descubra qual é o seu temperamento dominante</p>
+    </div>
+  </header>
+
   <main>
     <section class="intro">
-      <h1>Teste de Temperamentos</h1>
       <p>Marque a característica que mais se aplica a você em cada linha. No final, veja o resultado!</p>
     </section>
 
@@ -30,22 +37,60 @@
           <label><input type="radio" name="row1" value="3"> Habilidoso</label>
           <label><input type="radio" name="row1" value="4"> Calmo</label>
         </div>
-
         <div class="row">
           <label><input type="radio" name="row2" value="1"> Destacado</label>
           <label><input type="radio" name="row2" value="2"> Resoluto</label>
           <label><input type="radio" name="row2" value="3"> Analítico</label>
           <label><input type="radio" name="row2" value="4"> Tranquilo</label>
         </div>
-
         <div class="row">
           <label><input type="radio" name="row3" value="1"> Entusiasta</label>
           <label><input type="radio" name="row3" value="2"> Vontade Forte</label>
           <label><input type="radio" name="row3" value="3"> Sensível</label>
           <label><input type="radio" name="row3" value="4"> Cumpridor</label>
         </div>
-
-        <!-- Continue adicionando as linhas necessárias -->
+        <div class="row">
+          <label><input type="radio" name="row4" value="1"> Preguiçoso</label>
+          <label><input type="radio" name="row4" value="2"> Cruel</label>
+          <label><input type="radio" name="row4" value="3"> Egoísta</label>
+          <label><input type="radio" name="row4" value="4"> Pão duro</label>
+        </div>
+        <div class="row">
+          <label><input type="radio" name="row5" value="1"> Instável (emoções)</label>
+          <label><input type="radio" name="row5" value="2"> Dominador</label>
+          <label><input type="radio" name="row5" value="3"> Tristonho</label>
+          <label><input type="radio" name="row5" value="4"> Temeroso</label>
+        </div>
+        <div class="row">
+          <label><input type="radio" name="row6" value="1"> Indisciplinado</label>
+          <label><input type="radio" name="row6" value="2"> Impaciente</label>
+          <label><input type="radio" name="row6" value="3"> Pessimista</label>
+          <label><input type="radio" name="row6" value="4"> Indeciso</label>
+        </div>
+        <div class="row">
+          <label><input type="radio" name="row7" value="1"> Afetuoso</label>
+          <label><input type="radio" name="row7" value="2"> Otimista</label>
+          <label><input type="radio" name="row7" value="3"> Perfeccionista</label>
+          <label><input type="radio" name="row7" value="4"> Eficiente</label>
+        </div>
+        <div class="row">
+          <label><input type="radio" name="row8" value="1"> Simpático</label>
+          <label><input type="radio" name="row8" value="2"> Prático</label>
+          <label><input type="radio" name="row8" value="3"> Talentoso</label>
+          <label><input type="radio" name="row8" value="4"> Conservador</label>
+        </div>
+        <div class="row">
+          <label><input type="radio" name="row9" value="1"> Bom companheiro</label>
+          <label><input type="radio" name="row9" value="2"> Produtivo</label>
+          <label><input type="radio" name="row9" value="3"> Idealista</label>
+          <label><input type="radio" name="row9" value="4"> Líder</label>
+        </div>
+        <div class="row">
+          <label><input type="radio" name="row10" value="1"> Irresponsável</label>
+          <label><input type="radio" name="row10" value="2"> Vaidoso</label>
+          <label><input type="radio" name="row10" value="3"> Anti-social</label>
+          <label><input type="radio" name="row10" value="4"> Desconfiado</label>
+        </div>
 
         <button type="button" id="submitButton">Calcular Resultado</button>
       </form>
@@ -60,6 +105,7 @@
   <footer>
     <p>&copy; 2024 Teste de Temperamentos. Todos os direitos reservados.</p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
