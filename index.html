@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste de Temperamentos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <section class="intro">
+      <h1>Teste de Temperamentos</h1>
+      <p>Marque a característica que mais se aplica a você em cada linha. No final, veja o resultado!</p>
+    </section>
+
+    <section>
+      <form id="temperamentTest">
+        <!-- Cabeçalho das colunas -->
+        <div class="header-row">
+          <span>Coluna 1</span>
+          <span>Coluna 2</span>
+          <span>Coluna 3</span>
+          <span>Coluna 4</span>
+        </div>
+
+        <!-- Linhas do teste -->
+        <div class="row">
+          <label><input type="radio" name="row1" value="1"> Comunicativo</label>
+          <label><input type="radio" name="row1" value="2"> Energético</label>
+          <label><input type="radio" name="row1" value="3"> Habilidoso</label>
+          <label><input type="radio" name="row1" value="4"> Calmo</label>
+        </div>
+
+        <div class="row">
+          <label><input type="radio" name="row2" value="1"> Destacado</label>
+          <label><input type="radio" name="row2" value="2"> Resoluto</label>
+          <label><input type="radio" name="row2" value="3"> Analítico</label>
+          <label><input type="radio" name="row2" value="4"> Tranquilo</label>
+        </div>
+
+        <div class="row">
+          <label><input type="radio" name="row3" value="1"> Entusiasta</label>
+          <label><input type="radio" name="row3" value="2"> Vontade Forte</label>
+          <label><input type="radio" name="row3" value="3"> Sensível</label>
+          <label><input type="radio" name="row3" value="4"> Cumpridor</label>
+        </div>
+
+        <!-- Continue adicionando as linhas necessárias -->
+
+        <button type="button" id="submitButton">Calcular Resultado</button>
+      </form>
+
+      <div id="result" class="hidden">
+        <h2>Resultado:</h2>
+        <p id="temperamentResult"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Teste de Temperamentos. Todos os direitos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
